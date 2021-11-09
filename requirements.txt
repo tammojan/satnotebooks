@@ -1,0 +1,7 @@
+astropy
+jplephem
+numpy
+scipy >= 1.7.0
+wget
+tqdm
+matplotlib
