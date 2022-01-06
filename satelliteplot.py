@@ -76,8 +76,8 @@ def make_figure(
 
 
 def main(norad_id, filename):
-    sat = get_sat(43721)
-    dwl.date = datetime.now() - timedelta(hours=2)
+    sat = get_sat(norad_id)
+    dwl.date = datetime.now() - timedelta(hours=1)
     (
         rise_time,
         rise_azimuth,
